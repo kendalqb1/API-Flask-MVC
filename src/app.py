@@ -1,7 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
-from views.views import *
+from views.taskView import *
 
 def main():
     app.run(debug = True, port = 4000)

@@ -1,6 +1,6 @@
 from flask import jsonify, request
 import random, string
-from models.tasks import tasks
+from models.taskModel import tasks
 
 def getTasks():
     return jsonify( {'tasks': tasks} )
