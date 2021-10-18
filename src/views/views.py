@@ -1,5 +1,5 @@
 from app import app
-from controllers import addTasks, deleteTask, getTasks, updateTask
+from controllers.controllers import addTasks, deleteTask, getTasks, updateTask
 
 @app.route('/tasks', methods = ['GET'])
 def taskGet():
